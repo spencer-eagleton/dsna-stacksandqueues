@@ -52,6 +52,9 @@ class Queue {
       return false;
     }
   }
+  // hasNext() {
+  //   return !!this.queue.list
+  //  }
 }
 
 const queue = new Queue();
@@ -68,3 +71,12 @@ console.log(queue.hasNext()); // true
 console.log(queue.dequeue()); // 'llama'
 console.log(queue.hasNext()); // false
 console.log(queue.dequeue()); // null
+
+function reverse(arr) {
+  const stack = new Stack();
+
+  for (let i = 0; i < array.length; i++) {
+    stack.push(array[i]);
+  }
+  console.log();
+}
